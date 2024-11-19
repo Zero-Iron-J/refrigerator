@@ -47,3 +47,4 @@ def delete_food(food_name : str):
     params = {"food_name" : food_name}
     curs.execute(sql, params)
     conn.commit()
+    
